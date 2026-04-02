@@ -33,12 +33,16 @@ This hello world app demonstrates:
 
 ```
 src/
+├── assets/             # Images, fonts, and other static files
 ├── bun/
-│   └── index.ts      # Main process - creates and manages windows
+│   └── index.js        # Main process - creates and manages windows
 └── mainview/
-    ├── index.html    # Your app's UI
-    ├── index.css     # Styles
-    └── index.ts      # View logic
+    ├── html/
+    │   └── index.html  # Your app's UI
+    ├── css/
+    │   └── style.css   # Styles
+    └── js/
+        └── index.js   # View logic
 ```
 
 ## Next Steps
