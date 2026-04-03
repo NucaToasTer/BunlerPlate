@@ -1,4 +1,5 @@
-import "./index2.js";
+//import "./style.css";
+//import { resources } from "./index2.js";
 console.log("Electrobun view loaded!");
 
 let div = document.createElement("div");

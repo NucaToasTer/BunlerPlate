@@ -4,7 +4,8 @@
   "description": "A simple Electrobun app showcasing core features",
   "scripts": {
     "start": "dev",
-    "dev": "electrobun dev --watch"
+    "dev": "electrobun dev --watch",
+    "build": "electrobun build"
   },
   "dependencies": {
     "electrobun": "1.16.0"

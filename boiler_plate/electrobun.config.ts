@@ -18,7 +18,10 @@ export default {
     copy: {
       "src/mainview/html/index.html": "views/mainview/index.html",
       "src/mainview/css/style.css": "views/mainview/style.css",
-      "src/assets/image.jpg": "views/assets/image.jpg",
+      //"src/mainview/js/resources.js": "views/mainview/resources.js",
+      //"src/mainview/js/": "views/mainview/",
+      //"src/assets/ground.png": "views/assets/ground.png",
+      //"src/assets/": "views/assets/",
     },
     mac: {
       bundleCEF: false,
