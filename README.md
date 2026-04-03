@@ -25,8 +25,14 @@ This hello world app demonstrates:
    ```
 
 3. Build for production:
+
    ```bash
    bun run build
+   ```
+
+4. Build installer:
+   ```bash
+   bun run build --env=stable
    ```
 
 ## Project Structure
